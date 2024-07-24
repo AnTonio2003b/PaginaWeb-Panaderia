@@ -1,0 +1,62 @@
+/* Estilos para la sección "Mi cuenta" */
+.mi-cuenta-section {
+    padding: 80px 0;
+    background-color: rgb(253, 252, 251);
+    color: #fff; /* Texto en color blanco para contraste */
+  }
+  
+  .mi-cuenta-section .section-heading {
+    color: rgb(219, 136, 34);
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+  
+  .mi-cuenta-section .interface {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .mi-cuenta-section .interface h3 {
+    color: rgb(219, 136, 34); /* Color principal para los títulos */
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .mi-cuenta-section .form-control {
+    border-radius: 0;
+    border-color: #ccc;
+  }
+  
+  .mi-cuenta-section .form-control:focus {
+    border-color: rgb(219, 136, 34); /* Color de borde al enfocar */
+    box-shadow: none;
+  }
+  
+  .mi-cuenta-section .btn-primary {
+    background-color: rgb(219, 136, 34); /* Fondo del botón */
+    border-color: rgb(219, 136, 34); /* Borde del botón */
+    padding: 12px 30px;
+    font-size: 1.2em;
+    color: #fff; /* Texto en color blanco */
+  }
+  
+  .mi-cuenta-section .btn-primary:hover {
+    background-color: #c08020; /* Cambio de color al pasar el mouse */
+    border-color: #c08020; /* Cambio de color al pasar el mouse */
+  }
+  
+  @media (max-width: 768px) {
+    .mi-cuenta-section .interface {
+      padding: 20px;
+    }
+  }
+  
+  /* Estilos generales */
+
+/* Estilos para pantallas más pequeñas (celulares) */
+@media screen and (max-width: 600px) {
+  /* Estilos específicos para pantallas menores o iguales a 600px de ancho */
+}

@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color:rgb(219, 136, 34);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #ffffff;
+    padding: 15px 10px;
+    text-align: center;
+    color: #888484;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+.slider-box {
+    width: 1280px;
+    height: 700px;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-box img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+}
+
+@media (max-width:991px) {
+    body{
+        padding: 30px;
+    }
+
+   .slider-box{
+    width:100% ;
+   } 
+
+}
+
+.d-flex img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.btn-custom {
+    background-color: #ffffff; /* Color base del botón */
+    border-color: #ffffff; /* Color del borde del botón */
+    color: rgb(219, 136, 34); /* Color del texto del botón */
+
+    /* Estilos adicionales para personalización */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #e2e2e2; /* Color más oscuro al pasar el cursor */
+    border-color: #e2e2e2; /* Color del borde al pasar el cursor */
+    color: rgb(219, 136, 34); /* Color del texto al pasar el cursor */
+}
+
+.btn-custom:focus,
+.btn-custom:active {
+    outline: none;
+    box-shadow: none; /* Evita la sombra al hacer clic */
+}
+
+
+/* styles.css (nombre del archivo puede variar) */
+
+.card-img-top {
+    width: 414px; /* Ancho deseado para todas las imágenes */
+    height: 300PX; /* Altura automática para mantener la proporción */
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 46.25%; /* Proporción 16:9 para ajustar la altura */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos generales */
+
+/* Estilos para pantallas más pequeñas (celulares) */
+@media screen and (max-width: 600px) {
+    /* Estilos específicos para pantallas menores o iguales a 600px de ancho */
+}

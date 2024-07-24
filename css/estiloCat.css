@@ -1,0 +1,41 @@
+.custom-input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+    width: 200px; /* Ancho ajustado */
+    transition: all 0.3s ease;
+}
+
+.input-group-text {
+    background-color: rgb(219, 136, 34);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 8px 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.form-control {
+    flex: 1;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px 12px;
+
+    transition: border-color 0.3s ease;
+}
+
+/* Estilos generales */
+
+/* Estilos para pantallas más pequeñas (celulares) */
+@media screen and (max-width: 600px) {
+    /* Estilos específicos para pantallas menores o iguales a 600px de ancho */
+}
+
+
+
